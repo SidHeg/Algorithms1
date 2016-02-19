@@ -13,6 +13,6 @@ public class FixedCapacityStack<Item>
     { stack[N++] = item; }
     
     public Item pop()
-    { return stack[--N]; }
+    { return stack[--N]; } //even though we are not using the array at position n, java will hold a reference to that location (loitering). stack[N] = null to avoid this
 }
         
