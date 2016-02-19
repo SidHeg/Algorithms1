@@ -2,7 +2,7 @@ public class Percolation {
     
     private int[][] id;
     private int[][] sz;
-    private int len;
+    private int len;asfagddfgdf
     private int fir = 0;
     private int las = 0;
     private int ch = 0;
